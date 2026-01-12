@@ -507,6 +507,121 @@ const booksData = [
                 type: "infographic",
                 image: "assets/images/infographic-thz-communication.jpg",
                 caption: "📡 สรุปการสื่อสารในยุค 6G และเทคโนโลยี Terahertz"
+            },
+            {
+                type: "section-header",
+                title: "🏙️ 4.2 การเพิ่มความหนาแน่นของเครือข่าย (Densification)",
+                subtitle: "ความหนาแน่นมหาศาลของอุปกรณ์เชื่อมต่อ"
+            },
+            {
+                type: "list",
+                title: "📊 ความหนาแน่นและโครงสร้างพื้นฐาน",
+                items: [
+                    {
+                        title: "ความหนาแน่นของอุปกรณ์",
+                        content: "คาดการณ์ว่าจะมีอุปกรณ์เชื่อมต่อมากกว่า <strong>100 เครื่องต่อลูกบาศก์เมตร</strong>"
+                    },
+                    {
+                        title: "โครงสร้างพื้นฐาน",
+                        content: "สถานีฐาน 6G จะต้องรองรับการเชื่อมต่ออุปกรณ์ไร้สายจำนวนมหาศาลพร้อมกัน จึงจำเป็นต้องมีกลไกการเข้าถึงใหม่ๆ เพื่อจัดการข้อมูลอย่างมีประสิทธิภาพ"
+                    }
+                ]
+            },
+            {
+                type: "numbered-list",
+                title: "🌐 การประยุกต์ใช้งาน",
+                items: [
+                    {
+                        title: "บ้านอัจฉริยะ (Smart Homes)",
+                        description: "ควบคุมอุปกรณ์ในบ้านทั้งหมดผ่านเครือข่าย 6G"
+                    },
+                    {
+                        title: "เมืองอัจฉริยะ (Smart Cities)",
+                        description: "ระบบจราจร ไฟถนน และสาธารณูปโภคอัตโนมัติ"
+                    },
+                    {
+                        title: "การป้องกันภัยพิบัติ (Disaster Prevention)",
+                        description: "ระบบเตือนภัยและตอบสนองฉุกเฉินแบบเรียลไทม์"
+                    },
+                    {
+                        title: "ความปลอดภัยสาธารณะ (Public Safety)",
+                        description: "กล้องวงจรปิดและระบบรักษาความปลอดภัยอัจฉริยะ"
+                    },
+                    {
+                        title: "การแพทย์ (Medicare)",
+                        description: "การตรวจสุขภาพทางไกลและอุปกรณ์การแพทย์เชื่อมต่อ"
+                    },
+                    {
+                        title: "การศึกษา (Education)",
+                        description: "ห้องเรียนเสมือนจริงและการเรียนรู้แบบโต้ตอบ"
+                    }
+                ]
+            },
+            {
+                type: "highlight",
+                title: "🔗 รูปแบบการสื่อสาร",
+                content: "6G จะรองรับการสื่อสารทั้งระหว่าง <strong>บุคคลกับสรรพสิ่ง (Person-to-Thing)</strong> และ <strong>สรรพสิ่งกับสรรพสิ่ง (Thing-to-Thing)</strong>"
+            },
+            {
+                type: "section-header",
+                title: "🔋 4.3 พลังงานและการพัฒนาแบตเตอรี่ (Power)",
+                subtitle: "นวัตกรรมด้านพลังงานสำหรับยุค 6G"
+            },
+            {
+                type: "list",
+                title: "🔬 เทคโนโลยีแบตเตอรี่ใหม่",
+                items: [
+                    {
+                        title: "Solid-state Battery",
+                        content: "แบตเตอรี่แบบโซลิดสเตทที่มีความปลอดภัยและความจุสูงกว่าแบตลิเธียมไอออนทั่วไป"
+                    },
+                    {
+                        title: "Graphene Battery",
+                        content: "แบตเตอรี่กราฟีนที่ชาร์จเร็วและมีอายุการใช้งานยาวนาน"
+                    }
+                ]
+            },
+            {
+                type: "numbered-list",
+                title: "✨ คุณสมบัติที่ต้องการ",
+                items: [
+                    {
+                        title: "พลังงานสูงขึ้น (Higher Energy)",
+                        description: "เพิ่มความจุพลังงานต่อน้ำหนัก"
+                    },
+                    {
+                        title: "ราคาถูกลง (Lower Cost)",
+                        description: "ลดต้นทุนการผลิตให้เข้าถึงได้ง่าย"
+                    },
+                    {
+                        title: "ความจุมากขึ้น (Higher Capacity)",
+                        description: "เก็บไฟได้มากขึ้นในขนาดเท่าเดิม"
+                    },
+                    {
+                        title: "ใช้งานสะดวก (More Convenient)",
+                        description: "ชาร์จเร็วและมีอายุการใช้งานยาวนาน"
+                    }
+                ]
+            },
+            {
+                type: "highlight",
+                title: "⚡ การส่งพลังงานไร้สาย (Wireless Energy Transmission)",
+                content: "จะมีการนำเทคโนโลยีส่งพลังงานไร้สายมาใช้ชาร์จอุปกรณ์ เพื่อ <strong>ยืดอายุการใช้งานแบตเตอรี่</strong> และ <strong>เพิ่มความสะดวก</strong> ในการใช้งาน"
+            },
+            {
+                type: "table",
+                title: "📊 ตารางสรุปเป้าหมายหลัก",
+                headers: ["หัวข้อ", "เป้าหมายหลักในยุค 6G"],
+                rows: [
+                    ["<strong>ความหนาแน่น</strong>", "> 100 เครื่อง / m³"],
+                    ["<strong>ประเภทแบตเตอรี่</strong>", "Solid-state, Graphene"],
+                    ["<strong>นวัตกรรมการชาร์จ</strong>", "การส่งพลังงานแบบไร้สาย (Wireless Transmission)"]
+                ]
+            },
+            {
+                type: "infographic",
+                image: "assets/images/infographic-densification-power.jpg",
+                caption: "🏙️🔋 สรุปความหนาแน่นของเครือข่ายและการพัฒนาแบตเตอรี่ 6G"
             }
         ]
     }
