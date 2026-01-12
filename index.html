@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📚 Ton's Book Notes | บันทึกหนังสือของต้น</title>
+    <meta name="description" content="บันทึกสาระสำคัญจากหนังสือหลากหลายเล่ม สไตล์ลายมือ + สีน้ำ โดย Ton">
+    
+    <!-- Google Fonts - Handwriting Style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Indie+Flower&family=Sarabun:wght@300;400;500;600;700&family=Chakra+Petch:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Watercolor Background Elements -->
+    <div class="watercolor-bg">
+        <div class="watercolor-splash splash-1"></div>
+        <div class="watercolor-splash splash-2"></div>
+        <div class="watercolor-splash splash-3"></div>
+        <div class="watercolor-splash splash-4"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="notebook-header">
+        <div class="header-content">
+            <div class="logo">
+                <span class="logo-icon">📚</span>
+                <h1>Ton's Book Notes</h1>
+                <p class="tagline">บันทึกหนังสือของต้น</p>
+            </div>
+            <nav class="main-nav">
+                <a href="#home" class="nav-link active" data-page="home">🏠 หน้าแรก</a>
+                <a href="#books" class="nav-link" data-page="books">📖 หนังสือทั้งหมด</a>
+                <a href="#about" class="nav-link" data-page="about">✏️ เกี่ยวกับ</a>
+            </nav>
+        </div>
+        <div class="header-decoration">
+            <div class="tape tape-left"></div>
+            <div class="tape tape-right"></div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="notebook-content">
+        <!-- Home Page -->
+        <section id="home" class="page active">
+            <div class="page-inner notebook-paper">
+                <div class="paper-lines"></div>
+                <div class="page-content">
+                    <h2 class="section-title handwritten">ยินดีต้อนรับสู่บันทึกของฉัน 📖</h2>
+                    <p class="intro-text">
+                        ที่นี่คือพื้นที่เก็บบันทึกสาระสำคัญจากหนังสือต่างๆ ที่ผมได้อ่าน 
+                        เขียนด้วยลายมือพร้อมระบายสีน้ำ เพื่อให้การเรียนรู้สนุกและจดจำได้ง่ายขึ้น 🎨
+                    </p>
+                    
+                    <h3 class="subsection-title">📚 หนังสือล่าสุดที่เพิ่มเข้ามา</h3>
+                    <div class="book-cards-container" id="recent-books">
+                        <!-- Books will be dynamically loaded here -->
+                    </div>
+                </div>
+                <div class="paper-corner"></div>
+            </div>
+        </section>
+
+        <!-- Books List Page -->
+        <section id="books" class="page">
+            <div class="page-inner notebook-paper">
+                <div class="paper-lines"></div>
+                <div class="page-content">
+                    <h2 class="section-title handwritten">📖 หนังสือทั้งหมด</h2>
+                    <div class="books-grid" id="all-books">
+                        <!-- All books will be loaded here -->
+                    </div>
+                </div>
+                <div class="paper-corner"></div>
+            </div>
+        </section>
+
+        <!-- Book Detail Page -->
+        <section id="book-detail" class="page">
+            <div class="page-inner notebook-paper">
+                <div class="paper-lines"></div>
+                <div class="page-content" id="book-detail-content">
+                    <!-- Book detail will be loaded dynamically -->
+                </div>
+                <div class="paper-corner"></div>
+            </div>
+        </section>
+
+        <!-- About Page -->
+        <section id="about" class="page">
+            <div class="page-inner notebook-paper">
+                <div class="paper-lines"></div>
+                <div class="page-content">
+                    <h2 class="section-title handwritten">✏️ เกี่ยวกับบันทึกนี้</h2>
+                    <div class="about-content">
+                        <div class="about-card">
+                            <div class="about-icon">🎯</div>
+                            <h3>จุดประสงค์</h3>
+                            <p>รวบรวมสาระสำคัญจากหนังสือแต่ละเล่มให้จดจำได้ง่าย และสามารถกลับมาทบทวนได้เสมอ</p>
+                        </div>
+                        <div class="about-card">
+                            <div class="about-icon">🎨</div>
+                            <h3>สไตล์การนำเสนอ</h3>
+                            <p>ออกแบบเหมือนสมุดบันทึกลายมือ ผสมผสานกับศิลปะสีน้ำ ให้อารมณ์อบอุ่นและเป็นกันเอง</p>
+                        </div>
+                        <div class="about-card">
+                            <div class="about-icon">📚</div>
+                            <h3>เนื้อหา</h3>
+                            <p>หนังสือหลากหลายแนว ทั้งเทคโนโลยี, วิทยาศาสตร์, ธุรกิจ และอื่นๆ</p>
+                        </div>
+                    </div>
+                    <div class="signature">
+                        <p>Made with 💖 by Ton</p>
+                    </div>
+                </div>
+                <div class="paper-corner"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="notebook-footer">
+        <div class="footer-content">
+            <p>📚 Ton's Book Notes © 2025 | บันทึกด้วยความรัก ✨</p>
+        </div>
+        <div class="footer-decoration">
+            <div class="washi-tape tape-blue"></div>
+            <div class="washi-tape tape-pink"></div>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
