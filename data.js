@@ -4,6 +4,95 @@
 
 const booksData = [
     {
+        id: "ai-agents",
+        title: "Artificial Intelligence: Foundations of Computational Agents",
+        subtitle: "ปัญญาประดิษฐ์: รากฐานของตัวแทนเชิงคำนวณ (ฉบับพิมพ์ครั้งที่ 3)",
+        cover: "assets/images/book-cover-ai-agents.png",
+        authors: "David L. Poole, Alan K. Mackworth",
+        publisher: "Cambridge University Press",
+        tags: ["AI", "Machine Learning", "Neural Networks", "Intelligent Agents", "Ethics"],
+        sections: [
+            {
+                type: "highlight",
+                title: "📖 เกี่ยวกับหนังสือเล่มนี้",
+                content: "เนื้อหาชุดนี้มาจากหนังสือ <strong>AI Foundations of Computational Agents</strong> ฉบับพิมพ์ครั้งที่ 3 ซึ่งเขียนโดยผู้เชี่ยวชาญอย่าง <strong>Alan Mackworth</strong> และ <strong>David Poole</strong> เพื่อถ่ายทอดองค์ความรู้ด้านปัญญาประดิษฐ์อย่างเป็นระบบ"
+            },
+            {
+                type: "list",
+                title: "🎯 จุดเน้นหลักของตำรา",
+                items: [
+                    {
+                        title: "การออกแบบตัวแทนอัจฉริยะ (Intelligent Agents)",
+                        content: "ตำราเล่มนี้มุ่งเน้นการออกแบบ <strong>ตัวแทนอัจฉริยะ (intelligent agents)</strong> ที่สามารถรับรู้สภาพแวดล้อม ตัดสินใจ และดำเนินการได้อย่างอัตโนมัติ"
+                    },
+                    {
+                        title: "ครอบคลุมแนวคิดดั้งเดิมถึงเทคโนโลยีสมัยใหม่",
+                        content: "เนื้อหาครอบคลุมทั้งแนวคิดพื้นฐานไปจนถึงเทคโนโลยีล้ำสมัยอย่าง <strong>การเรียนรู้ของเครื่อง (machine learning)</strong> และ <strong>โครงข่ายประสาทเทียม (neural networks)</strong>"
+                    }
+                ]
+            },
+            {
+                type: "numbered-list",
+                title: "🧠 หัวข้อสำคัญที่ครอบคลุม",
+                items: [
+                    {
+                        title: "Intelligent Agents",
+                        description: "ตัวแทนอัจฉริยะที่สามารถรับรู้และตอบสนองต่อสิ่งแวดล้อมได้"
+                    },
+                    {
+                        title: "Machine Learning",
+                        description: "เทคนิคการเรียนรู้จากข้อมูลเพื่อพัฒนาประสิทธิภาพ"
+                    },
+                    {
+                        title: "Neural Networks",
+                        description: "โครงข่ายประสาทเทียมที่เลียนแบบการทำงานของสมองมนุษย์"
+                    },
+                    {
+                        title: "Probability Theory",
+                        description: "ทฤษฎีความน่าจะเป็นสำหรับการตัดสินใจภายใต้ความไม่แน่นอน"
+                    },
+                    {
+                        title: "Logic",
+                        description: "ตรรกศาสตร์สำหรับการให้เหตุผลและการอนุมาน"
+                    },
+                    {
+                        title: "Search & Planning",
+                        description: "เทคนิคการค้นหาและการวางแผนเชิงลึก"
+                    }
+                ]
+            },
+            {
+                type: "list",
+                title: "🔬 การจัดการกับความไม่แน่นอน",
+                items: [
+                    {
+                        title: "การใช้ทฤษฎีความน่าจะเป็น",
+                        content: "แหล่งข้อมูลได้อธิบายวิธีการที่ตัวแทนเหล่านี้ใช้แก้ปัญหาภายใต้ความไม่แน่นอนผ่าน <strong>ทฤษฎีความน่าจะเป็น (Probability Theory)</strong>"
+                    },
+                    {
+                        title: "การใช้ตรรกศาสตร์",
+                        content: "นอกจากนี้ยังใช้ <strong>ตรรกศาสตร์ (Logic)</strong> ในการให้เหตุผลและการตัดสินใจอย่างเป็นระบบ"
+                    }
+                ]
+            },
+            {
+                type: "highlight",
+                title: "⚖️ จริยธรรมและผลกระทบทางสังคม",
+                content: "ผู้เขียนยังให้ความสำคัญอย่างยิ่งกับ <strong>ผลกระทบทางสังคม</strong> และ <strong>จริยธรรม</strong> โดยมุ่งเน้นการสร้างปัญญาประดิษฐ์ที่มีมนุษย์เป็นศูนย์กลาง (Human-centered AI) เพื่อลดความเสี่ยงที่อาจเกิดขึ้นในอนาคต"
+            },
+            {
+                type: "metaphor",
+                title: "🤖 อุปมาอุปไมย",
+                content: "หากเปรียบ AI เป็น <strong>\"พนักงานใหม่\"</strong> หนังสือเล่มนี้ก็เหมือนกับ <strong>\"คู่มือฝึกอบรม\"</strong> ที่สอนให้พนักงานคนนั้นรู้จักเรียนรู้จากประสบการณ์ (Machine Learning) คิดอย่างมีเหตุผล (Logic) รับมือกับสถานการณ์ที่ไม่แน่นอน (Probability) และที่สำคัญที่สุดคือ ทำงานอย่างมีจริยธรรมและคำนึงถึงผลกระทบต่อเพื่อนร่วมงานและสังคม"
+            },
+            {
+                type: "highlight",
+                title: "📚 สรุป",
+                content: "นี่คือแหล่งข้อมูลวิชาการที่รวบรวมหลักการทางวิทยาศาสตร์และวิศวกรรมเพื่อสร้าง <strong>ระบบอัจฉริยะที่ใช้งานได้จริงอย่างมีคุณธรรมและยั่งยืน</strong>"
+            }
+        ]
+    },
+    {
         id: "ai-blockchain-6g",
         title: "AI and Blockchain Technology in 6G Wireless Network",
         subtitle: "เทคโนโลยี AI และ Blockchain ในเครือข่ายไร้สาย 6G",
